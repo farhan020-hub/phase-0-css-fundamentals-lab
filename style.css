@@ -3,3 +3,61 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header {
+  
+  text-align: center;
+
+}
+
+
+
+#featured-property{
+
+  text-align: center;
+   
+    text-align: center;
+  
+}
+
+#featured-property p {
+
+  width: 800px;
+  margin: auto;
+  padding: 15px;
+
+
+}
+
+a{
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: bisque;
+}
+
+figcaption {
+
+  font-size: small;
+  text-align: center;
+}
+
+#details {
+  position: relative;
+  display: flex;
+  justify-content: space-between; /* Adjust this property as needed */
+  background-color: blanchedalmond;
+  margin-top: 80px;
+}
+
+/* Optionally, add some spacing between the divs */
+#details div {
+  margin-right: 20px; /* Adjust the spacing as needed */
+  text-align: center;
+  width: 25%;
+}
+
+/* Prevent the last div from having a right margin */
+#details div:last-child {
+  margin-right: 0;
+}
+
